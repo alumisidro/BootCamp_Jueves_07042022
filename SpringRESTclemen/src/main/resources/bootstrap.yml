@@ -1,0 +1,18 @@
+#spring:
+#  application:
+#    name: springRESTclemen
+#  cloud:
+#    config:
+#      # Se indica el puerto del proyecto configServer (en ese bootstrap.yml)
+#      uri: http://localhost:8081
+#  boot:
+#   admin:
+#    client:
+#     url: http://localhost:8086
+
+spring.application.name: springRESTclemen
+spring.cloud.config.uri: http://localhost:8081
+spring.boot.admin.client.url: http://localhost:8086
+
+#spring.cloud.config.uri: http://localhost:8081
+#spring.application.name: springRESTclemen

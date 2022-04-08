@@ -1,0 +1,14 @@
+server:
+   port: 8081
+  
+spring:
+  cloud:
+   config:
+    server:
+        git:
+         # URL del repositorio donde están ubicados los proyectos (con ello el fichero yml de ellos)
+         uri: https://github.com/alumisidro/BootCampConfigServer.git
+         # Especificamos dónde están los archivos de configuración dentro del repositorio
+         searchPaths: config-data
+         # Rama por defecto
+         default-label: master
